@@ -34,11 +34,11 @@ Users want to be able to:
 
 ### 🔧 Tasks:
 
-- [ ] Design and build typing test UI.
-- [ ] Implement test timer logic.
-- [ ] Capture and compare user input against the reference text.
-- [ ] Calculate WPM and accuracy.
-- [ ] Display results clearly at the end of the test.
+- [x] Design and build typing test UI.
+- [x] Implement test timer logic.
+- [x] Capture and compare user input against the reference text.
+- [x] Calculate WPM and accuracy.
+- [x] Display results clearly at the end of the test.
 
 ---
 
@@ -56,9 +56,9 @@ Users want to be able to:
 
 ### 🔧 Tasks:
 
-- [ ] Write and display clear, concise instructions.
-- [ ] Create an expandable/collapsible instructions section or modal.
-- [ ] Add a help/info icon for easy access to instructions.
+- [x] Write and display clear, concise instructions.
+- [x] Create an expandable/collapsible instructions section or modal.
+- [x] Add a help/info icon for easy access to instructions.
 
 ---
 
@@ -76,9 +76,9 @@ Users want to be able to:
 
 ### 🔧 Tasks:
 
-- [ ] Create difficulty level options in UI.
-- [ ] Categorize or create passages per difficulty.
-- [ ] Load the correct passage based on user selection.
+- [x] Create difficulty level options in UI.
+- [x] Categorize or create passages per difficulty.
+- [x] Load the correct passage based on user selection.
 
 ---
 
@@ -96,9 +96,9 @@ Users want to be able to:
 
 ### 🔧 Tasks:
 
-- [ ] Use responsive design practices (e.g., Tailwind or CSS media queries).
-- [ ] Test layout on multiple screen sizes.
-- [ ] Optimize keyboard interactions on mobile devices.
+- [x] Use responsive design practices (e.g., Tailwind or CSS media queries).
+- [x] Test layout on multiple screen sizes.
+- [x] Optimize keyboard interactions on mobile devices.
 
 ---
 
@@ -117,8 +117,8 @@ Users want to be able to:
 
 ### 🔧 Tasks:
 
-- [ ] Implement WPM and accuracy calculation logic.
-- [ ] Design and display result screen with key metrics.
-- [ ] Add a “Retake Test” button on the results screen.
+- [x] Implement WPM and accuracy calculation logic.
+- [x] Design and display result screen with key metrics.
+- [x] Add a "Retake Test" button on the results screen.
 
 ---
