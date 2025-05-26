@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeRacer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Nunito:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="logo">TypeRacer</h1>
+        <button id="instructionsBtn" aria-label="Show instructions">
+          Instructions
+        </button>
+      </header>
+      <main>
+        <section class="test-panel">
+          <div class="controls-row">
+            <label for="difficulty">Select Difficulty</label>
+            <select id="difficulty">
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+          </div>
+          <div class="reference-text" id="referenceText"></div>
+          <textarea
+            id="userInput"
+            placeholder="Click the start button to begin the test"
+            rows="4"
+            disabled
+          ></textarea>
+          <div class="button-row">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn" disabled>Stop</button>
+            <button id="retryBtn" disabled>Retry</button>
+          </div>
+        </section>
+        <aside class="results-panel">
+          <h2>Results</h2>
+          <ul>
+            <li><strong>Level:</strong> <span id="resultLevel">Easy</span></li>
+            <li><strong>Time:</strong> <span id="resultTime">0s</span></li>
+            <li><strong>WPM:</strong> <span id="resultWPM">0</span></li>
+            <li>
+              <strong>Accuracy:</strong> <span id="resultAccuracy">0%</span>
+            </li>
+            <li><strong>Errors:</strong> <span id="resultErrors">0</span></li>
+          </ul>
+        </aside>
+      </main>
+      <div id="instructionsModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+          <button
+            class="close-modal"
+            id="closeInstructions"
+            aria-label="Close instructions"
+          >
+            &times;
+          </button>
+          <h2>How to Use TypeRacer</h2>
+          <ul>
+            <li>Select your desired difficulty level.</li>
+            <li>
+              Click <b>Start</b> to begin. The timer starts when you type your
+              first character.
+            </li>
+            <li>
+              Type the text shown above as quickly and accurately as you can.
+            </li>
+            <li>Click <b>Stop</b> to end early, or <b>Retry</b> to restart.</li>
+            <li>
+              When finished, view your WPM, accuracy, and errors in the results
+              panel.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
